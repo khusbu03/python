@@ -16,3 +16,10 @@ demoString="i am learning python for doing backend,then i will learn django"
 countAlphabets={char:demoString.count(char) for char in demoString}
 
 print("Alphabets  count",countAlphabets)
+odd_even={i:('even' if (i%2==0) else 'odd') for i in range(0,11)}
+print("odd even dictionary",odd_even)
+
+
+# set comprehension
+newSet={i**2  for i in range(0,11)}
+print(newSet)
