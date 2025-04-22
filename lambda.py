@@ -19,3 +19,18 @@ elementsMap=list(map(lambda num :num*2,numbers))
 print(even)
 print(odd)
 print(elementsMap)
+
+
+names=["khushi","khusbu","Khushbu Phulara","a"]
+print(max(names,key=lambda item:len(item)))
+
+
+
+students2=[
+    {'name':"rohit","age":32,"score":100},
+    {'name':"mohit","age":24,"score":90},
+    {'name':"ankit","age":35,"score":95},
+]
+
+
+print(max(students2,key=lambda item :item.get('score'))['name'])
